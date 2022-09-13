@@ -155,22 +155,27 @@ input[type="submit"]{
     border-radius: 5px;
 }
 
-#end{
-    height: 250px;
-    background-color: black;
-    color: white;
-}
+footer{
+    background-color: lightgray;
 
-#end > a{
-    color: white;
-    padding-left: 5%;
-    margin-top: 10%;
 }
-
-#e_cont{
-    margin: 5% 0 0 5%;
+footer > ul{
+display:flex;
+justify-content: flex-end;
 }
+li{
+    list-style:none;
+}
+#works{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
 
+}
+iframe{
+ max-width:550px;
+ width:100%;
+}
 @media (max-width: 650px){
     .logo{
         margin-top: 15px;
