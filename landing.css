@@ -157,15 +157,23 @@ input[type="submit"]{
 
 footer{
     background-color: lightgray;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 8vh;
+    padding-top: 20px;
+    margin-top: 30px;
+}
 
-}
 footer > ul{
-display:flex;
-justify-content: flex-end;
+    display:flex;
+    justify-content: flex-end;
 }
-li{
+
+footer > ul > li{
     list-style:none;
+    padding: 0 10px;
 }
+
 #works{
     margin-top:40px;
     display:flex;
